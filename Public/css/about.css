@@ -1,0 +1,37 @@
+.page-about{ background-image:url(../images/about_bg.jpg)/*tpa=http://3ayun.com.cn/Public/images/about_bg.jpg*/; background-repeat:no-repeat; background-size:cover; background-position: top center; background-attachment:fixed;}
+.banner_about{ width:100%; padding-top:90px;}
+
+.pt90{ padding-top:90px;}
+
+
+
+.section{ overflow:hidden;}
+.section .pic,.section .txt{}
+.section .pic{ width:640px;}
+.section .txt{ width:540px; color:#333;}
+.section .pic img{ width:100%;}
+.section .txt .con{padding:80px 00px 50px;}
+.section .txt .con .bt h1,.section .txt .con .bt h2{ color:#333;}
+
+.section_left .pic{ float:left;}
+.section_left .txt{ float:right;}
+.section_right .pic{ float:right;}
+.section_right .txt{ float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

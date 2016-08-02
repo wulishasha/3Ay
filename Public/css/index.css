@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner_index{ height:610px; width:100%; padding-top:90px; background-image:url(../images/banner_index.jpg)/*tpa=http://3ayun.com.cn/Public/images/banner_index.jpg*/; background-repeat:no-repeat; background-size:cover; background-position: center;position:relative;}
+.banner_index .txt_box{ color:#fff; width:100%; position:absolute; top:50%; margin-top:-130px; z-index:3;}
+.banner_index .txt_box h1{ font-size:50px; margin-bottom:30px;}
+.banner_index .txt_box h2{ font-size:28px; margin-bottom:60px; padding:0 50px; letter-spacing:2px; }
+.banner_index .txt_box .eplus{ font-size:12px; padding:2px 3px; color:#236d93; background:#fff; vertical-align:middle; margin-left:5px;letter-spacing:0px;
+-webkit-border-radius:2px;
+-moz-border-radius: 2px;
+border-radius: 2px;}
+.banner_index .txt_box .line{ height:2px; width:160px; margin:0 auto; background:#fff; margin-bottom:20px;}
+
+#indexslider {position:absolute;background-color:#1c597c;left:0;top:0;bottom:0; right:0;width:100%;height:100%;overflow:hidden;}
+#indexslider .hd{ width:100%; position:absolute; bottom:20px;z-index: 2;
+/*transition-timing-function:ease-out;
+-o-transition-timing-function:ease-out;
+-moz-transition-timing-function:ease-out;
+-webkit-transition-timing-function:ease-out;
+filter: alpha(opacity=0);
+-khtml-opacity: 0;
+-moz-opacity: 0;
+opacity: 0;*/}
+#indexslider .hd .swiper-pagination-bullet{ display:inline;padding: 5px;margin: 4px 8px;font-size: 0px;line-height: 10px;text-align: center;background: none;border: 1px #fff solid;
+cursor: pointer;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+behavior: url(ie-css3.htc)/*tpa=http://3ayun.com.cn/Public/css/ie-css3.htc*/; z-index:2;
+filter: alpha(opacity=50);
+-khtml-opacity: 0.5;
+-moz-opacity: 0.5;
+opacity: 0.5;
+behavior: url(ie-css3.htc)/*tpa=http://3ayun.com.cn/Public/css/ie-css3.htc*/; z-index:2;}
+#indexslider .hd .swiper-pagination-bullet-active{background:#fff;color: #fff; border-color:#fff;
+filter: alpha(opacity=100);
+-khtml-opacity: 1;
+-moz-opacity: 1;
+opacity: 1;}
+#indexslider .tempWrap{ height:100%;}
+#indexslider .bd{ width:100% !important; height:100% !important;}
+#indexslider .swiper-slide { position:relative; width:100% !important; height:100% !important; background-position:center; background-size:cover; background-repeat:no-repeat;
+	text-align: center;
+	font-size: 18px;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+#indexslider .swiper-slide img{ width:100%; height:auto;}
+#indexslider .swiper-slide .txt-mask{ position:absolute; right:0; bottom:15%; width:500px; background:url(../images/alpha_black80.png)/*tpa=http://3ayun.com.cn/Public/images/alpha_black80.png*/ repeat; padding:30px 100px 30px 40px; color:#fff; font-size:12px; text-align:left; line-height:22px;}
+#indexslider .swiper-slide .txt-mask h1{ font-size:28px; line-height:30px; margin-bottom:20px;}
+#indexslider .arrow{ background-color:rgba(0,0,0,.5); background-image:url(../images/arrow_left.png)/*tpa=http://3ayun.com.cn/Public/images/arrow_left.png*/; background-repeat:no-repeat; background-position:center; width:70px; height:70px; background-size:auto; position:absolute; top:50%; display:block; left:-70px; margin-top:-35px; z-index:1;
+transition-timing-function:ease-out;
+-o-transition-timing-function:ease-out;
+-moz-transition-timing-function:ease-out;
+-webkit-transition-timing-function:ease-out;
+filter: alpha(opacity=0);
+-khtml-opacity: 0;
+-moz-opacity: 0;
+opacity: 0;}
+#indexslider .next{background-image:url(../images/arrow_right.png)/*tpa=http://3ayun.com.cn/Public/images/arrow_right.png*/; left:auto;right:-70px;}
+#indexslider .prev:hover,#indexslider .next:hover{ background-color:rgba(0,0,0,.8);}
+#indexslider .prevStop,#indexslider .nextStop{ background-color:rgba(0,0,0,.2) !important;}
+#indexslider .prev.arrow_show{left:0%;
+filter: alpha(opacity=100);
+-khtml-opacity: 1;     
+-moz-opacity: 1;
+opacity: 1;}
+#indexslider .next.arrow_show{right:0%;
+filter: alpha(opacity=100);
+-khtml-opacity: 1;     
+-moz-opacity: 1;
+opacity: 1;}
+
+
+
+.con{ padding:30px 0 50px;}
+.con_index ul{ width:90%; margin:0 auto;}
+.con_index ul li{ width:25%; float:left; display:inline;}
+.con_index ul li .item{ display:block; width:90%; margin:0 auto; text-align:center; padding:20px 0;}
+.con_index .item .pic{ margin:0 auto; width:80px; height:80px; line-height:80px; color:#1c597c; border:1px #1c597c solid; background:#fff; margin-bottom:15px;
+-webkit-border-radius:50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+behavior: url(ie-css3.htc)/*tpa=http://3ayun.com.cn/Public/css/ie-css3.htc*/; z-index:2; position:relative;}
+.con_index .item .pic .iconfont{ font-size:32px;}
+.con_index .item .txt{ font-size:16px;}
+.con_index .item:hover .pic,.con_index .item:active .pic { color:#fff; background:#0a99e0; border-color:#0a99e0; }
+.con_index .item:hover .txt,.con_index .item:active .txt{ color:#1c597c;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

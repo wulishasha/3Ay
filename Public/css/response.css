@@ -1,0 +1,195 @@
+/*电脑和平板电脑横屏*/
+@media (max-width:1199px){
+.w1200{ width:100%; }
+
+/*产品页*/
+.page-work .section .pic{ width:50%;}
+.page-work .section .txt{ width:50%;}
+.page-work .section_01 .options .item{width:30%;}
+.page-work .section_03 .options .item{width:25%;}
+.page-work .section_06 .options .item{width:30%;}
+.page-work .section_08 .options .item{width:30%;}
+
+/*合作页*/
+.page-cooperate .section .pic{ width:60%; bottom:-60px;}
+.page-cooperate .section .txt{ width:50%;}
+.page-cooperate .foot01 .item-message .item_form.item_name{ float:none;}
+.page-cooperate .foot01 .item-message .item_form.item_phone{ float:none;}
+.page-cooperate .foot01 .item-message .item_form.item_company .input_text{width:85%;}
+.page-cooperate .foot01 .item-message .item_form.item_name .input_text{width:85%;}
+.page-cooperate .foot01 .item-message .item_form.item_phone .input_text{ width:85%;}
+
+/*关于页*/
+.page-about .section .pic{ width:50%;}
+.page-about .section .txt{ width:50%;}
+
+
+}
+
+/*平板电脑竖屏*/
+@media (max-width:991px){
+.nav .nLi{ margin-right:5px;}
+.nav .nLi h3 a{width:80px;}
+.nav .btn_login h3 a{ width:120px;}
+
+.foot01 .item{ width:40%; padding-left:5%;}
+.foot01 .item-contact{ width:95%;}
+.foot01 .item-contact dl{ width:50%; float:left;}
+
+/*产品页*/
+.page-work .section .pic{ width:80%; margin:0 auto; float:none;}
+.page-work .section .txt{ width:100%; float:none;}
+.page-work .section .options .item h2,.page-work .section .options .item h5{ font-size:12px;}
+
+/*资讯页*/
+.page-news .con_news .nr li{ width:100%;}
+.page-newsarticle .con_newsarticle .main .part-l,.page-newsarticle .con_newsarticle .main .part-r{ width:100%; float:none;}
+
+/*关于页*/
+.page-about .section .pic{ width:80%;margin:0 auto; float:none;}
+.page-about .section .txt{ width:100%; float:none; }
+.page-about .section .txt .con{padding:0px 00px 50px;}
+
+/*荨藌网页*/
+.page-xunmi .countbox{ width:90%}
+.page-xunmi .banner_xunmi{ height:700px;}
+
+}
+
+/*手机*/
+@media (max-width:767px){
+.pc{ display:none;}
+.phone{ display:block;}
+*{font-family: "STHeiti","SimHei","SimSun";}
+body{ padding-bottom:70px;}
+.inner{ padding:0 10px;}
+
+.btn{font-family: "STHeiti","SimHei","SimSun";font-size:16px;border:0; height:40px; line-height:40px; padding:0 50px;}
+
+.con .bt{ margin-bottom:20px;}
+.con .bt h1{ font-size:20px; margin-bottom:10px;}
+.con .bt h2{ font-size:12px; line-height:20px;}
+
+.foot01 .item{ width:90%; padding-left:5%;}
+.foot01 .item-partner .nr{ margin:0 auto;padding:0 0px;}
+.foot01 .item-partner .swiper-button{ display:none;}
+.foot01 .item-contact dl{ width:100%; float:none;}
+
+
+
+/*首页*/
+.page-index .banner_index{ height:500px;}
+.page-index .banner_index .txt_box h1{ font-size:20px; margin-bottom:15px;}
+.page-index .banner_index .txt_box h2{ font-size:16px; margin-bottom:30px; padding:0; }
+.page-index .banner_index .txt_box .eplus{ font-size:12px; white-space:nowrap;}
+.page-index .banner_index .txt_box .line{ height:1px; width:100px; }
+.page-index .con_index ul li{ width:50%;}
+.page-index .con_index .item .pic{ width:60px; height:60px; line-height:60px;}
+.page-index .con_index .item .txt{ font-size:14px;}
+
+
+
+/*产品页*/
+#fp-nav.left{ left:5px;}
+#fp-nav ul li, .fp-slidesNav ul li{ margin:3px;}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{height: 6px;width: 6px;margin: -3px 0 0 -3px; }
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{height: 6px;width: 6px;margin: -3px 0 0 -3px;}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{height: 6px;width: 6px;margin: -3px 0 0 -3px;}
+.page-work .section .pt90{ padding-top:40px; padding-bottom:50px;}
+.page-work .section .pic{ width:80%; margin:0 auto; float:none;}
+.page-work .section .txt{ width:100%; float:none;}
+.page-work .section .txt .con{ padding:0;}
+.page-work .section .txt .bt{ margin-bottom:10px;}
+.page-work .section .txt .bt h1{ margin-bottom:5px;}
+.page-work .section .options .item{ width:auto;}
+.page-work .section .options .item h2{ margin-bottom:5px;}
+.page-work .section .options .item .iconfont{ font-size:20px;}
+.page-work .section .options .item .bigfont{ font-size:20px;}
+.page-work .section .options .vline{ margin:0 10px;}
+.page-work .section .link{ margin-bottom:5px;}
+
+.page-work .section_01 .options .vline{ height:50px;}
+.page-work .section_02 .options .vline{ height:20px;}
+.page-work .section_03 .options .vline{ height:50px;}
+.page-work .section_06 .options .vline{ height:50px;}
+.page-work .section_08 .options .vline{ height:50px;}
+.page-work .section_bottom .foot02{ padding-top:50px;}
+
+
+/*合作页*/
+.page-cooperate .banner_cooperate{ margin-bottom:30px;}
+.page-cooperate .section .pic{ width:100%;}
+.page-cooperate .section .txt{ width:100%;}
+.page-cooperate .foot01 .item-message .input_text{ box-sizing:border-box; height:40px;}
+.page-cooperate .foot01 .item-message .btn{ box-sizing:border-box; width:100%;}
+.page-cooperate .foot01 .item-message .item_form.item_company .input_text{width:100%;}
+.page-cooperate .foot01 .item-message .item_form.item_name .input_text{width:100%;}
+.page-cooperate .foot01 .item-message .item_form.item_phone .input_text{ width:100%;}
+.page-cooperate .foot01 .item-message .item_form .iconfont{ top:50%; margin-top:-10px;} 
+
+/*关于页*/
+.page-about .section .pic{ width:80%;margin:0 auto; float:none;}
+.page-about .section .txt{ width:100%; float:none; }
+.page-about .section .txt .con{padding:0px 00px 50px;}
+
+/*资讯页*/
+.page-news .con_news{ padding-top:50px;}
+.page-news .con_news .nr .item{  padding:10px 10px 10px 40px;}
+.page-news .con_news .nr .item .iconfont{ top:10px;}
+.page-news .con_news .nr .item .title{ font-size:16px;}
+.page-news .con_news .nr .item .date{ height:20px; line-height:20px; font-size:12px;}
+.page-newsarticle .con_newsarticle{ padding-top:50px;}
+.page-newsarticle .con_newsarticle .title{ padding:0px 10px 15px;}
+.page-newsarticle .con_newsarticle .title h1{ font-size:20px; line-height:26px;margin-bottom:10px;}
+.page-newsarticle .con_newsarticle .title h2{ font-size:14px; line-height:30px;}
+.page-newsarticle .con_newsarticle .title h2 .mainpage{ margin-left:50px;}
+.pagelist{ text-align:center;}
+
+
+/*荨藌网页*/
+.page-xunmi .pt90{ padding-top:50px;}
+.page-xunmi .banner_xunmi{ height:500px;}
+.page-xunmi .section_front .pic img{ width:40%;}
+.page-xunmi .section_front .bt h1{ color:#660601; font-size:20px; line-height:22px; margin-bottom:50px;}
+.page-xunmi .section_front .bt h1 span{ color:#cd261e;}
+.page-xunmi .section_front .bt h2{ font-size:18px; color:#111;}
+.page-xunmi .countbox .numbers{ width:60px; height:60px; border-width:1px;
+-moz-box-shadow:0px 0px 5px rgba(218,37,28,0.8);              
+-webkit-box-shadow:0px 0px 5px rgba(218,37,28,0.8);           
+box-shadow:0px 0px 5px rgba(218,37,28,0.8);}
+.page-xunmi .countbox .numbers h2{ font-size:22px; padding-top:10px; height:25px; line-height:25px;}
+.page-xunmi .countbox .numbers p{ font-size:14px;}
+.page-xunmi .section .item{ zoom:0.5;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "BROADW";
+    src: url("../iconfont/BROADW.eot")/*tpa=http://3ayun.com.cn/Public/iconfont/BROADW.eot*/; /* IE9 */
+    src: url("../iconfont/BROADW.eot-#iefix")/*tpa=http://3ayun.com.cn/Public/iconfont/BROADW.eot?#iefix*/ format("embedded-opentype"), /* IE6-IE8 */
+    url("../iconfont/BROADW.woff")/*tpa=http://3ayun.com.cn/Public/iconfont/BROADW.woff*/ format("woff"), /* chrome、firefox */
+    url("../iconfont/BROADW.ttf")/*tpa=http://3ayun.com.cn/Public/iconfont/BROADW.ttf*/ format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../iconfont/BROADW.svg#BROADW")/*tpa=http://3ayun.com.cn/Public/iconfont/BROADW.svg#BROADW*/ format("svg"); /* iOS 4.1- */
+}
+
+
+.page-xunmi{ background-repeat:no-repeat; background-size:cover; background-position: top center; background-attachment:fixed;}
+.banner_xunmi{ width:100%; height:600px; overflow:hidden;}
+
+.pt90{ padding-top:90px;}
+
+
+
+.section{ width:100%; height:100%;}
+.section .w1200{ position:relative; height:100%;}
+
+.background{ width:110%; height:120%;background-image:url(../images/xunmi_bg.jpg)/*tpa=http://3ayun.com.cn/Public/images/xunmi_bg.jpg*/; background-size:cover; background-position:center; position:absolute; left:-5%; top:-10%;}
+
+
+.section_front .pic{ padding-top:40px; margin-bottom:40px;}
+.section_front .bt h1{ color:#660601; font-size:44px; line-height:44px; margin-bottom:50px;}
+.section_front .bt h1 span{ color:#cd261e;}
+.section_front .bt h2{ font-size:24px; color:#111;}
+.countbox{ width:800px; color:#fff;}
+.countbox ul{ width:100%;}
+.countbox ul li{ display:inline-block;*display:inline;*zoom:1; width:25%;}
+.countbox .numbers{ width:120px; height:120px; margin:0 auto; background:url(../images/alpha_red70.png)/*tpa=http://3ayun.com.cn/Public/images/alpha_red70.png*/ repeat; border:2px #fff solid;
+-webkit-border-radius:50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+-moz-box-shadow:0px 0px 30px rgba(218,37,28,0.8);              
+-webkit-box-shadow:0px 0px 30px rgba(218,37,28,0.8);           
+box-shadow:0px 0px 30px rgba(218,37,28,0.8);
+behavior: url(ie-css3.htc)/*tpa=http://3ayun.com.cn/Public/css/ie-css3.htc*/;zoom:1;}
+.countbox .numbers h2{ font-family:"BROADW",Microsoft YaHei,"微软雅黑",SimSun,"宋体"; font-size:40px; height:50px; padding-top:20px;}
+.countbox .numbers p{ font-size:18px;}
+
+.section .item{ position:absolute;}
+.section .item_01{right:15%; top:5%;}
+.section .item_01_1{left:-15%; bottom:15%;}
+.section .item_02{left:9%; top:35%;}
+.section .item_02_1{right:-9%; top:55%;}
+.section .item_03{right:7%; top:46%;}
+.section .item_03_1{left:-7%; top:-5%;}
+.section .item_04{left:10%; bottom:6%;}
+
+.section .item_05{left:18%; top:17%;}
+
+.section .item_06{left:6%; top:29%;}
+.section .item_07{left:27%; bottom:-5%;}
+.section .item_08{right:11%; top:20%;}
+.section .item_09{right:7%; bottom:1%;}
+
+.section .item_10{left:15%; top:6%;}
+.section .item_11{left:2%; bottom:2%;}
+.section .item_11_1{right:-2%; top:2%;}
+.section .item_12{left:-5%; bottom:16%;}
+.section .item_13{right:3%; top:40%;}
+
+.section .item_14{left:24%; top:12%;}
+.section .item_15{right:11%; top:25%;}
+.section .item_16{right:26%; bottom:-1%;}
+
+
+
+
+
+
+
+/*上线后*/
+.btn_enter{ font-size:20px; display:inline-block; padding:0 30px; height:60px; line-height:60px; color:#fff; background:url(../images/alpha_red70.png)/*tpa=http://3ayun.com.cn/Public/images/alpha_red70.png*/ repeat; border:2px solid; border-color:transparent;
+-webkit-border-radius:30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+behavior: url(ie-css3.htc)/*tpa=http://3ayun.com.cn/Public/css/ie-css3.htc*/;zoom:1;}
+.btn_enter:hover{ border-color:#fff; background-color:#cd261e;
+-moz-box-shadow:0px 0px 30px rgba(218,37,28,0.8);              
+-webkit-box-shadow:0px 0px 30px rgba(218,37,28,0.8);           
+box-shadow:0px 0px 30px rgba(218,37,28,0.8);}
+
+
+
+
+
+

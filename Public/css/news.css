@@ -1,0 +1,61 @@
+.page-news{ background:#fff;/* background-image:url(../images/about_bg.jpg); background-repeat:no-repeat; background-size:cover; background-position: top center; background-attachment:fixed;*/}
+
+
+.con_news{ padding-top:90px; padding-bottom:30px; min-height:400px;}
+.con_news .bt{ padding-top:30px;}
+.con_news .bt span{ font-size:20px;}
+.con_news .nr ul{ width:100%; margin-bottom:20px;}
+.con_news .nr li{ float:left; display:inline; width:50%;}
+.con_news .nr .item{ display:block; background:#f8f8f8; padding:15px 40px;line-height:40px; border:1px #fff solid; position:relative;}
+.con_news .nr .item .iconfont{ position:absolute; left:5px; top:15px; display:block; height:40px; line-height:40px; width:40px; text-align:center; color:#0a99e0; font-size:24px;}
+.con_news .nr .item .title{ height:40px;  font-size:18px; color:#333;}
+.con_news .nr .item .date{ height:40px;  font-size:16px; color:#aaa;}
+.con_news .nr .item:hover{ background:#fff;}
+.con_news .nr .item:hover .iconfont{ left:10px;}
+.con_news .nr .item:hover .title{ color:#0a99e0;}
+
+
+/*分页*/
+.pagelist{ padding:20px 0px ; font-size:16px;}
+.pagelist p a{ line-height:40px; padding:8px 13px; background:#fff; color:#0a99e0; margin-right:10px; font-size:14px;
+-webkit-border-radius:5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-transition:all 0.1s ease-out;
+-khtml-transition:all 0.1s ease-out;
+-moz-transition: all 0.1s ease-out;
+-o-transition: all 0.1s ease-out;
+transition: all 0.1s ease-out;}
+.pagelist p span{ padding:8px 13px;}
+.pagelist p a:hover{ color:#1c597c;}
+.pagelist p a.thisclass{ color:#333; background:#f8f8f8;}
+
+
+
+
+/*详情页*/
+.con_newsarticle{ padding-top:90px;}
+.con_newsarticle .inner{ padding:0 10px;}
+.con_newsarticle .title{ padding:00px 0px 25px; background:url(../images/news_title_bg.jpg)/*tpa=http://3ayun.com.cn/Public/images/news_title_bg.jpg*/ repeat;}
+.con_newsarticle .title h1{ font-size:26px; line-height:32px; color:#333; margin-bottom:15px;}
+.con_newsarticle .title h2{ font-size:16px; color:#888; line-height:30px;}
+.con_newsarticle .title h2 .mainpage{ margin-left:50px;}
+.con_newsarticle .main{ padding-top:30px;}
+.con_newsarticle .main .part-l{ width:66%; float:left;}
+.con_newsarticle .main .part-r{ width:30%; float:right;}
+.con_newsarticle .text_box{ line-height:26px; color:#666; font-size:14px; margin-bottom:50px; overflow:hidden;}
+.con_newsarticle .text_box img{ max-width:100%; width:auto;}
+.con_newsarticle .con_right { margin-bottom:50px;}
+.con_newsarticle .con_right .bt{ margin-bottom:10px;}
+.con_newsarticle .con_right .bt h1{font-size:20px; letter-spacing:2px;color:#333;}
+.con_newsarticle .con_right .bt h1 span{font-size:12px; color:#4fa4d5; letter-spacing:0;}
+.con_newsarticle .bdsharebuttonbox a{ margin-right:12px;}
+.con_newsarticle .con_right .nr li{ display:block; height:40px; line-height:40px; font-size:14px;position:relative;padding-left:30px; color:#333;}
+.con_newsarticle .con_right .nr li a{color:#333; }
+.con_newsarticle .con_right .nr li .iconfont{ display:block; width:30px; height:40px; line-height:45px; font-size:16px; position:absolute; left:0; top:0; text-align:center; color:#0a99e0;}
+.con_newsarticle .con_right .nr li a:hover{ color:#0a99e0;}
+.con_newsarticle .con_right .nr li a:hover .iconfont{ left:5px;}
+
+
+.syyxyy{ font-size:16px; line-height:30px; padding:20px 0px 50px; color:#888;}
+.syyxyy p{ width:50%;}

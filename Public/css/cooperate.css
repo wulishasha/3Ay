@@ -1,0 +1,58 @@
+.page-cooperate{ background:#f8f8f8;}
+.banner_cooperate{height:420px; width:100%; padding-top:90px; margin-bottom:100px; background-image:url(../images/worldmap.jpg)/*tpa=http://3ayun.com.cn/Public/images/worldmap.jpg*/; background-repeat:no-repeat; background-size:cover; background-position: center;}
+.banner_cooperate .w1200{position:relative; height:100%;}
+
+.pt90{ padding-top:90px;}
+
+.section{ height:100%;}
+.section .pic{}
+.section .pic{ width:640px;}
+.section .pic img{ width:100%;}
+.section .txt{ width:540px;}
+.section .txt .con{padding:90px 00px 50px; color:#fff;}
+.section .txt .con .bt h1,.section .txt .con .bt h2{ color:#fff;}
+
+.section_right .pic{ position:absolute; right:0; bottom:-80px;}
+.section_right .txt{ position:absolute; left:0; bottom:40px;}
+
+.con_partners{ padding-bottom:50px;}
+.con_partners .nr ul{ margin-bottom:20px; overflow:hidden;}
+.con_partners .nr li{ display:inline-block;*display:inline;*zoom:1; vertical-align:middle; }
+.con_partners .nr .item{ display:block; width:120px; height:120px;margin:10px; overflow:hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center}
+.con_partners .nr .item img{ max-width:100%; max-height:100%;
+-webkit-transition:all 0.3s ease-out;
+-khtml-transition:all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;}
+.con_partners .nr .item:hover img{
+transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-o-webkit-transform: scale(1.2,1.2);
+-moz-webkit-transform: scale(1.2,1.2);}
+.con_partners .nr .operate{ padding:20px; font-size:14px; display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
